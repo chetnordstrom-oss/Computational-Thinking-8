@@ -27,4 +27,10 @@ print("\n\n")
                                                                                           
                                   
 print("Now it's your turn:")
-print("my name is chet and i like to play video games")                                 
+print("my name is chet welcome to ct8")
+print("today we will tell you a story with your help!")
+print("")
+print("")
+animal=input("dog")
+location=input("seattle")
+print("one day a dog walked in the park and he played all day.")
