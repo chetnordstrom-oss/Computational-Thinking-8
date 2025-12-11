@@ -1,1 +1,16 @@
-print("hi my name is chet i like to play video games")
+print("this my messsage")
+name = input("my name is chet what is your name")
+input()
+
+print(f"hello my name is {name} and welcome to CT8")
+input("what is your favorite type of animal")
+print("my favorite type of animal is a dog")
+input()
+
+print("what is your favorite type of food")
+print("i like animals")
+print("the dog walked into the park")
+print("the dog sneezed")
+print("i like ice cream")
+print("the world is cool")
+print("the park is wild")
