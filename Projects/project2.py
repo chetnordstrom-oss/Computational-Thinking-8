@@ -2,30 +2,36 @@ winter_points = 1
 summer_points=1
 spring_points=1
 
-answer1 = input ("do you perfer summer or spring, B summer, or C both?")
-if answer1 == "A":
+answer1 = input ("do you prefer summer or spring?")
+if answer1 == "summer":
     summer_points += 1
-elif answer1 == "B":
-    summer_points +=1
-spring_points +=1
+elif answer1 == "spring":
+    spring_points +=1
 
 
 
 
-awnser2 = input ("do you like sledding or swimming?")
-if awnser2 == "sledding":
+answer2 = input ("do you like sledding or swimming?")
+if answer2 == "sledding":
     winter_points += 1
-elif awnser2 == "swimming":
+elif answer2 == "swimming":
     summer_points+=1
 
 
-awnser3 = input (" do you like snow or sun?")
-if awnser3 == "snow":
-winter_points +=1
-sun_points+ +=1
-("do you like hot chocalete or ice cream")
-winter_points +=1
-summer_points +=1
-("do you like snow ball fights and trampaling. or watter balloon fights?")
-winter_points +=1 
-summer_points +=1
+answer3 = input (" do you like snow or sun?")
+if answer3 == "snow":
+    winter_points +=1
+elif answer3 == "sun":
+    summer_points +=1
+
+answer4 = input("do you like hot chocolate or ice cream?")
+if answer4 == "hot chocolate":
+    winter_points +=1
+elif answer4 == "ice cream":
+    summer_points +=1
+
+answer5 = input("do you like ice or snow")
+if answer5 == "ice":
+    winter_points +=1
+elif answer5 == "snow":
+    winter_points+=2
