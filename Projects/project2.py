@@ -19,7 +19,7 @@ elif answer2 == "swimming":
 
 
 answer3 = input (" do you like snow or sun?")
-if answer3 == "snow":
+if answer3 == "snow" or answer3 == "Snow":
     winter_points +=1
 elif answer3 == "sun":
     summer_points +=1
@@ -35,3 +35,11 @@ if answer5 == "ice":
     winter_points +=1
 elif answer5 == "snow":
     winter_points+=2
+
+
+if winter_points > summer_points and winter_points > spring_points:
+    print("you are a winter person")
+if summer_points > winter_points and summer_points > spring_points:
+    print("you are a summer person")
+if spring_points > summer_points:
+    print("you are a spring person")
