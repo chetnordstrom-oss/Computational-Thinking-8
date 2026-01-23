@@ -16,7 +16,7 @@ y4 = 99
 # Section 2 - Setup
 # # TODO - use your own background, and set your four turtles to images of your choice
 set_background("castle")
-t1 = create_sprite("lightsaber",x1,y1)
+t1 = create_sprite("soccerball",x1,y1)
 t2 = create_sprite("turttle"",x2,y2)
 t3 = create_sprite("basketball",x3,y3)
 t4 = create_sprite("basketball",x4,y4)

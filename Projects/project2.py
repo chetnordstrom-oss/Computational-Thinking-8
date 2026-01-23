@@ -28,7 +28,7 @@ answer4 = input("do you like hot chocolate or ice cream?")
 if answer4 == "hot chocolate":
     winter_points += 1
 elif answer4 == "ice cream":
-    summer_points += 1
+    summer_points += 5
 
 answer5 = input("do you like ice or snow?")
 if answer5 == "ice" or answer5 == "B":
@@ -39,7 +39,8 @@ elif answer5 == "snow":
 
 if winter_points >= summer_points and winter_points >= spring_points:
     print("you are a winter person")
-elif summer_points > winter_points and summer_points > spring_points:
+elif summer_points >= winter_points and summer_points >= spring_points:
     print("you are a summer person")
-elif spring_points > summer_points:
+elif spring_points >= summer_points:
     print("you are a spring person")
+
