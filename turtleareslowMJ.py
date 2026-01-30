@@ -17,13 +17,13 @@ y4 = 99
 # # TODO - use your own background, and set your four turtles to images of your choice
 set_background("castle")
 t1 = create_sprite("soccerball",x1,y1)
-t2 = create_sprite("turttle"",x2,y2)
-t3 = create_sprite("basketball",x3,y3)
+t2 = create_sprite("turtle",x2,y2)
+t3 = create_sprite("scooter",x3,y3)
 t4 = create_sprite("basketball",x4,y4)
 
 
 # # Section 3 - Racing
-# # TODO - set how much each variable changes by and increase the number of repeats to at least 30
+# # TODO - set how much each variable changes by and increase the number of repc fr4eats to at least 30
 # # TODO - explain here which sprites are faster or slower
 # for i in range(3):
 #     x1 +=
