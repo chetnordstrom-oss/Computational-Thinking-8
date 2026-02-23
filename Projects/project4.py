@@ -1,3 +1,4 @@
+# goal is to click on space for cookies untill 2000 cookies
 import turtle, time, random, math
 from utils import *
 # Section 1 - setup
@@ -13,7 +14,7 @@ message_sprite.color("white")
  
 # Section 2 - controls
 # TODO - define an action. ex: def my_control()
-def make_cookie():
+def make_cookie(): 
     global cookies
     cookies += 1
     x = random.randint(-300,300)
